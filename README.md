@@ -46,5 +46,5 @@ This repository contains a collection of projects developed during an intensive 
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/BaselAmr/Sprints-AI-and-ML-Bootcamp
+   git clone https://github.com/Basel-Amr/Sprints-AI-and-ML-Bootcamp.git
 
