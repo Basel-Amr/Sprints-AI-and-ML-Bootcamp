@@ -47,4 +47,7 @@ This repository contains a collection of projects developed during an intensive 
 1. Clone the repository:  
    ```bash
    git clone https://github.com/Basel-Amr/Sprints-AI-and-ML-Bootcamp.git
+2. Install python depenceies
+   ```bash
+   pip install requirments.txt
 
