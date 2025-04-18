@@ -1,0 +1,20 @@
+[
+  {
+    "age": 26,
+    "email": "baselamr52@gmail.com",
+    "id": 1,
+    "name": "Basel Amr Barakat"
+  },
+  {
+    "age": 30,
+    "email": "mostafaamr@gmail.com",
+    "id": 2,
+    "name": "Mostafa Amr"
+  },
+  {
+    "age": 26,
+    "email": "ayaamr@gmail.com",
+    "id": 4,
+    "name": "Aya Amr"
+  }
+]

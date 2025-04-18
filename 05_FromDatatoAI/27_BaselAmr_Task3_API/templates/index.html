@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Sprints API{% endblock %}
+
+{% block content %}
+<div class="center-content">
+    <h1>Welcome to Sprints Bootcamp API Task!</h1>
+    <p>This is the homepage of Our API.</p>
+    <p>We will test GET and POST methods.</p>
+    <img src="{{ url_for('static', filename='sprints_logo.png') }}" alt="Sprints Logo">
+</div>
+{% endblock %}

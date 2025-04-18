@@ -1,0 +1,80 @@
+<!-- templates/docs.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Documentation</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        h1 { text-align: center; }
+        .endpoint { margin-top: 20px; padding: 10px; background-color: #f4f4f4; border-radius: 5px; }
+        h2 { margin: 10px 0; }
+        pre { background-color: #f0f0f0; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>API Documentation</h1>
+
+    <div class="endpoint">
+        <h2>GET /users</h2>
+        <p>Retrieve all users in the system.</p>
+        <pre>
+            Response:
+            [
+                {"id": 1, "name": "Basel Amr Barakat", "email": "baselamr52@gmail.com", "age":26},
+                {"id": 2, "name": "Aya Amr Barakat", "email": "ayaamr@gmail.com", "age":26},
+		{"id": 3, "name": "Mostafa Amr Barakat", "email": "mostafa@gmail.com", "age":28},
+		{"id": 4, "name": "Mohamed Amr Barakat", "email": "mohamed@gmail.com", "age":32},
+            ]
+        </pre>
+    </div>
+
+    <div class="endpoint">
+        <h2>POST /users</h2>
+        <p>Add a new user to the system. Send JSON with user data.</p>
+        <pre>
+            Request:
+            {
+                "id": 5,
+                "name": "Amr Barkakat",
+                "email": "amrbarakat@gmail.com"
+            }
+            Response:
+            {
+                "message": "User added successfully"
+            }
+        </pre>
+    </div>
+
+    <div class="endpoint">
+        <h2>DELETE /users/&lt;id&gt;</h2>
+        <p>Delete a user by ID.</p>
+        <pre>
+            Response:
+            {
+                "message": "User deleted successfully"
+            }
+        </pre>
+    </div>
+
+    <div class="endpoint">
+        <h2>GET /search?query=&lt;search_query&gt;</h2>
+        <p>Search for users by name or email.</p>
+        <pre>
+            Request:
+            /search?query=john
+            Response:
+            [
+                {"id": 1, "name": "John Doe", "email": "john@example.com"}
+            ]
+        </pre>
+    </div>
+
+    <div class="endpoint">
+        <h2>Home Page</h2>
+        <p>Welcome to the Sprints Bootcamp API Task! This is a simple user management API built with Flask.</p>
+    </div>
+</body>
+</html>

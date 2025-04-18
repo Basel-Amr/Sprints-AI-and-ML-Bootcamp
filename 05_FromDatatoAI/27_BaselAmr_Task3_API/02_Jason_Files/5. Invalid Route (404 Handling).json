@@ -1,0 +1,26 @@
+{
+  "error": "Page not found",
+  "message": "The route you entered does not exist.",
+  "valid_routes": [
+    {
+      "method": "GET",
+      "route": "/"
+    },
+    {
+      "method": "GET",
+      "route": "/users"
+    },
+    {
+      "method": "POST",
+      "route": "/users"
+    },
+    {
+      "method": "DELETE",
+      "route": "/users/<id>"
+    },
+    {
+      "method": "GET",
+      "route": "/search"
+    }
+  ]
+}
